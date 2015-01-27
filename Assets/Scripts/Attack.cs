@@ -33,7 +33,7 @@ public class Attack : MonoBehaviour {
 
     void TestAttack(GameObject target)
     {
-        if (transform.localScale.x == 1)
+        if (transform.localScale.x == 1 || transform.localScale.x == 4)
         {
             if (target.transform.position.x > transform.position.x)
                 AttackTarget(target);
